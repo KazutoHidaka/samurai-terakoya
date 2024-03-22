@@ -1,0 +1,19 @@
+tera
+koya
+
+
+git config --global user.name "KazutoHidaka"
+git config --global user.email "kazuto.wajin922@gmail.com"
+
+
+git clone [リモートリポジトリのURL] [クローンしたいローカルパス]
+git clone https://github.com/KazutoHidaka/samurai-terakoya.git C:\git_samurai\samurai-terakoya
+
+git checkout [切り替えたい既存ブランチ名]
+cd [Gitで操作したいフォルダのフルパス]
+
+git checkout -b [作成するブランチ名]　-bオプションを付けると、作成したブランチにそのまま切り替えが可能
+git checkout -b fix2
+
+git branch [作成するブランチ名]　　　　
+
